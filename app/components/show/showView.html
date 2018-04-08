@@ -1,0 +1,28 @@
+<div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-sm-12 show">
+                    <h1>Show</h1>
+                    <div class="show__title"><h2>{{show.acf.show_title}}</h2></div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8">
+                            <img class="show__thumbnail show__thumbnail--left" src="{{show.acf.show_thumbnail}}">
+                            <div class="show__description">
+                                <strong>Show Synopsis:</strong>
+                                <p ng-bind-html="outputHtml(show.acf.show_description)"></p>
+                            </div>
+                            <span class="show__next-air-date"><strong>Original Air Date:</strong> {{show.acf.show_air_date | date}}</span>
+                            <div class="show__next-air-date"><strong>Time To Next Episode</strong> 
+                                <div id="clockdiv">
+                                    Days: <span class="days"></span>
+                                    Hours: <span class="hours"></span>
+                                    Minutes: <span class="minutes"></span>
+                                    Seconds: <span class="seconds"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

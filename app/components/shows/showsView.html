@@ -1,0 +1,18 @@
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pagetitle"><h1>{{pageTitle}}</h1></div>
+                <div class="message">
+                    {{message}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 show" ng-repeat="show in shows">
+                    <img class="show__thumbnail" src="{{show.acf.show_thumbnail}}">
+                    <h2>{{show.acf.show_title}}</h2>
+                    <p ng-bind-html="outputHtml(show.excerpt.rendered)"></p>
+                    <a class="btn btn-primary" href="#!/show/{{show.id}}">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>

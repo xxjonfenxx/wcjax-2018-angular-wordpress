@@ -1,0 +1,54 @@
+header {
+    margin-bottom: 50px;
+}
+.message {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.navbar-nav .nav-link {
+    padding: 0 0.5em;
+}
+.show .show__title {
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+.show .show__thumbnail {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+.show .show__thumbnail--left {
+    margin: 0 auto 0 0;
+}
+.show .show__description {
+    margin-top: 16px;
+    font-size: 17px;
+}
+.show .show__air-date {
+    font-size: 16px;
+}
+.show .show__next-air-date {
+    margin-bottom: 24px;
+    display: block;
+}
+.show .show__next-air-date strong {
+    display: block;
+    font-size: 24px;
+}
+#clockdiv {
+    display: flex;
+    align-items: left;
+}
+#clockdiv span {
+    margin-right: 15px;
+    font-size: 24px;
+}
+#clockdiv span.time {
+    font-size: 24px;
+    font-weight: 700;
+}
+footer {
+    padding: 50px 0px;
+    margin-top: 50px;
+}
